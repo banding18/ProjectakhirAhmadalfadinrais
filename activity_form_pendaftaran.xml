@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".FormPendaftaranActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nama_puskesmas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Puskesmas"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#18719A"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIlahkan Isi Data Identitas Anda"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#18719A"
+            android:layout_marginTop="12dp"/>
+        <EditText
+            android:id="@+id/nama_lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nama lengkap"
+            android:inputType="text"
+            android:textColorHint="#18719A"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/alamat_lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="alamat lengkap"
+            android:inputType="text"
+            android:textColorHint="#18719A"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/jenis_kelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="jenis kelamin"
+            android:inputType="text"
+            android:textColorHint="#18719A"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/tujuan_poli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="tujuan poli"
+            android:inputType="text"
+            android:textColorHint="#18719A"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:id="@+id/jenis_bayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="jenis pembayaran"
+            android:inputType="text"
+            android:textColorHint="#18719A"
+            android:layout_marginTop="8dp"/>
+        <Button
+            android:id="@+id/pendaftaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:textColor="#18719A"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

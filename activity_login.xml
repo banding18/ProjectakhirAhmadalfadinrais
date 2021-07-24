@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="6dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang di Insekar"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#1BA1DD"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/Etemail"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Email"
+            android:layout_marginTop="8dp"
+            android:textColorHint="#1BA1DD" />
+        <EditText
+            android:id="@+id/Etpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Password"
+            android:layout_marginTop="2dp"
+            android:inputType="textPassword"
+            android:textColorHint="#1BA1DD" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp"
+            android:textColorHint="#1BA1DD"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp"
+            android:textColorHint="#1BA1DD"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

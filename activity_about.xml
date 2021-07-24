@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#407FB1"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".About.AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="3dp"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/adam"
+        android:layout_width="match_parent"
+        android:text="Ahmad Alfadin Rais"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="#407FB1"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/tegar"
+        android:layout_width="match_parent"
+        android:text="Risma Tri Banding"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="#407FB1"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
